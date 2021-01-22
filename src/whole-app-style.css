@@ -1,0 +1,123 @@
+@import '~antd/dist/antd.css';
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+	background: transparent;
+}
+
+.ant-menu{
+    background: rgb(192, 52, 1) !important;
+    
+}
+.ant-layout-sider{
+    background: rgb(192, 52, 1) !important;
+   
+}
+.ant-layout-sider-trigger{
+    background: rgb(192, 52, 1) !important;
+    
+}
+.ant-layout-header{
+    background: seashell !important
+}
+span.ant-avatar-string {
+    position: static !important;
+}
+.site-layout-content {
+    background: #fff;
+    padding: 24px;
+    min-height: 280px;
+}
+.logo {
+    height: 32px;
+    color: white;
+    margin: 26px; 
+}
+[data-theme="dark"] .site-layout-content {
+    background: #fcfafa;
+}
+[data-theme="dark"] .logo {
+    background: rgba(255,255,255,0.3);
+}
+
+.login-form {
+    max-width: 300px;
+}
+.login-form-forgot {
+    float: right;
+}
+.ant-col-rtl .login-form-forgot {
+    float: left;
+}
+.login-form-button {
+    width: 100%;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.jss35 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.jss4 {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Typography-h4 {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.17;
+}
+.MuiTypography-subtitle1-16 {
+    font-size: 1.4285714285714286rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.TypographyLogo {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    
+}
+
+.text-danger{
+    color: red;
+}
+.site-card-wrapper {
+  background: #ececec;
+  padding: 30px;
+}
+  [data-theme="dark"] .site-card-wrapper {
+    background: #303030;
+  }
+
+
+
+.center-cropped {
+  width: 300px;
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.inputClass{
+    font-size: 40px;
+    width: 100%;
+}
+
